@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 5px;
+  background-color: white;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2 style="font-family:Century Gothic, sans-serif ;">Bienuel's Blog</h2>
+  <h5 style="font-family: Brush Script MT, Cursive;">GEE 16: The Entrepreneurial Mind</h5>
+</div>
+
+<div class="row", style="color:black">
+  <div class="leftcolumn">
+    <div class="card" style="font-family:Century Gothic, sans-serif ;">
+      <h2>What have you learned?</h2>
+      <h5>July 3, 2023</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+  
+  </div>
+</div>
+
+<div class="footer">
+  <h2>About Me</h2>
+      <img src ="1.jpg" width="200" height="200" class="left">
+      <p>My name is Bienuel M. Esmeralda, I am a 3rd year student in Central Mindanao University taking
+        Bachelor of Science in Mathematics Minor in Statistics. This Blog is one of the requirement for my subject 
+      which is GEE 16:The Entrepreneurial Mind.  </p>
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
