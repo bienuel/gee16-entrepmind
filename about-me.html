@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 5px;
+  background: white;
+}
+.button{
+    border:none;
+    height: 200px;
+    width:1323px;
+    border-radius:2px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right:8px;
+    box-align: center;
+}
+
+.button1{
+  background-color: black;
+    color:white;
+    border:none;
+    height: 50px;
+    width:105px;
+    border-radius:2px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right:8px;
+  } 
+
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.leftcolumn {   
+  float: right;
+  width: 75%;
+  padding-left: 120px;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 100px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+   background-color: white;
+   padding: 100px;
+   margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+  <div >
+    <button style="font-family:Century Gothic, sans-serif ;" class="button1">Blogs</button>
+    <button style="font-family:Century Gothic, sans-serif ;" class="button1">About me</button>
+    </div>
+    
+      <div class="header">
+      <p style="font-family:Century Gothic, sans-serif ; font-weight: bold; font-size: 170%;"> Bienuel's Blog </p>
+      <p style ="font-family: Century Gothic, sans-serif; font-size: x-large; font-style: italic;" >GEE 16: The Entrepreneurial Mind</p>
+    </div>
+    <p></p>
+  
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <p style="font-family:Century Gothic, sans-serif ; font-weight: bold; font-size: 170%;"> About me</p>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>ABOUT ME</h2>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+    <img src="1.jpg" width="300px" height="300px">
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
+</body>
+</html>
